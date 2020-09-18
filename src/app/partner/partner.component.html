@@ -1,0 +1,12 @@
+<mat-sidenav-container fullscreen>
+  <mat-sidenav #sidebar mode="side" opened="true" class="matSideNave">
+    <app-partner-sidebar (sidebarAction_sidebar)="closeSidebar()"></app-partner-sidebar>
+  </mat-sidenav>
+  <mat-sidenav-content>
+    <app-partner-header (sidebarAction)="toggleSidebar(sidebar)"></app-partner-header>
+    <div class="pagePlaceHolder col-lg-12">
+      <router-outlet></router-outlet>
+    </div>
+    <app-partner-footer (sidebarAction)="toggleSidebar(sidebar)"></app-partner-footer>
+  </mat-sidenav-content>
+</mat-sidenav-container>

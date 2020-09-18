@@ -1,0 +1,176 @@
+<div class="container-fluid">
+  <div class="content" role="main">
+    
+    <div class="toolbar" role="banner" (scroll)="onWindowScroll($event);">
+      <img
+        width="40"
+        alt="Angular Logo"
+        src="data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHZpZXdCb3g9IjAgMCAyNTAgMjUwIj4KICAgIDxwYXRoIGZpbGw9IiNERDAwMzEiIGQ9Ik0xMjUgMzBMMzEuOSA2My4ybDE0LjIgMTIzLjFMMTI1IDIzMGw3OC45LTQzLjcgMTQuMi0xMjMuMXoiIC8+CiAgICA8cGF0aCBmaWxsPSIjQzMwMDJGIiBkPSJNMTI1IDMwdjIyLjItLjFWMjMwbDc4LjktNDMuNyAxNC4yLTEyMy4xTDEyNSAzMHoiIC8+CiAgICA8cGF0aCAgZmlsbD0iI0ZGRkZGRiIgZD0iTTEyNSA1Mi4xTDY2LjggMTgyLjZoMjEuN2wxMS43LTI5LjJoNDkuNGwxMS43IDI5LjJIMTgzTDEyNSA1Mi4xem0xNyA4My4zaC0zNGwxNy00MC45IDE3IDQwLjl6IiAvPgogIDwvc3ZnPg=="
+      />
+      <span>Deporter Logistics</span>
+      <div class="menu">
+        <a>HOME</a>
+        <a>ABOUT US</a>
+        <a>SERVICES</a>
+        <a>INDUSTRIES</a>
+        <a>BLOGS</a>
+        <a>CONTACT</a>
+      </div>
+    </div>
+
+    <div class="banner">
+      <div class="banner-content">
+        <h1>WELCOME TO DEPORTER LOGISTICS</h1>
+        <h3>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla non lorem vestibulum, luctus eros eu, scelerisque nulla. In condimentum, ligula non viverra vehicula, augue nisi efficitur ligula, nec facilisis leo magna ornare ligula. Vivamus neque risus, facilisis et convallis et, vehicula sit amet felis. Quisque vel massa id magna dignissim pulvinar ut id diam. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus neque risus, facilisis et convallis et, vehicula sit amet felis. Quisque vel massa id magna dignissim pulvinar ut id diam. Vivamus laoreet lorem in nisi volutpat convallis. Integer vel sem id enim posuere tristique a non arcu. </h3>
+        <button mat-raised-button color="primary" [routerLink]="['login']">Let's Get Started</button>   
+      </div>  
+    </div>
+    
+    <div class="division">
+      <div class="division-content">
+        <h1>OUR SERVICES</h1>
+        <hr style="height:2px;border-width:0;color:#ff9800;background-color:#ff9800;width:20%">
+        <br>
+        <div class="row">
+          <div class="col-sm-4">
+            <i class='fas fa-bus-alt' style='font-size:48px;color:#ff9800'></i>
+            <h2>Service 1</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          </div>
+          <div class="col-sm-4">
+            <i class='fas fa-ship' style='font-size:48px;color:#ff9800'></i>
+            <h2>Service 2</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          </div>
+          <div class="col-sm-4">
+            <i class='fas fa-plane-arrival' style='font-size:48px;color:#ff9800'></i>
+            <h2>Service 3</h2>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+            <h4>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</h4>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="division">
+      <div class="division-content">
+        <h1>GALLERY</h1>
+        <hr style="height:2px;border-width:0;color:#ff9800;background-color:#ff9800;width:20%">
+        <br>
+        <div class="row">
+          <div class="col-sm-3">
+            <img src="../../assets/gallery-1.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img src="../../assets/gallery-2.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img src="../../assets/gallery-3.jpg">
+          </div>
+          <div class="col-sm-3">
+            <img src="../../assets/gallery-4.jpg">
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="division testimonials">
+      <div class="division-content">
+        <h1>TESTIMONIALS</h1>
+        <hr style="height:2px;border-width:0;color:#ff9800;background-color:#ff9800;width:20%">
+        <br>
+        <div class="row">
+          <div class="col-sm-12">
+            <img src="../../assets/testimonials.jpg">
+            <h2>Mark Abraham</h2>
+            <p style="font-style: italic;">"I have an improvement to your answer. As crop is very tailored for every image, this definitions should be at the HTML instead of CSS.!"</p>
+          </div>
+        </div>
+      </div>  
+    </div>
+
+    <div class="division">
+      <div class="division-content">
+        <h1>BLOGS</h1>
+        <hr style="height:2px;border-width:0;color:#ff9800;background-color:#ff9800;width:20%">
+        <br>
+        <div class="row">
+          <div class="col-sm-6" style="text-align: -webkit-center;">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image-1"></div>
+                <mat-card-title>Logistics and Growth</mat-card-title>
+                <mat-card-subtitle>Article on logistics and global growth</mat-card-subtitle>
+              </mat-card-header>
+              <img mat-card-image src="../../assets/blog-1.jpg" alt="Photo of a Shiba Inu">
+              <mat-card-content>
+                <p>
+                  The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                  A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                  bred for hunting.
+                </p>
+              </mat-card-content>
+              <mat-card-actions>
+                <button mat-button>READ</button>
+                <button mat-button>SHARE</button>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+          <div class="col-sm-6" style="text-align: -webkit-center;">
+            <mat-card class="example-card">
+              <mat-card-header>
+                <div mat-card-avatar class="example-header-image-2"></div>
+                <mat-card-title>Logistics in India</mat-card-title>
+                <mat-card-subtitle>How logistics developed in India</mat-card-subtitle>
+              </mat-card-header>
+              <img mat-card-image src="../../assets/blog-2.jpg" alt="Photo of a Shiba Inu">
+              <mat-card-content>
+                <p>
+                  The Shiba Inu is the smallest of the six original and distinct spitz breeds of dog from Japan.
+                  A small, agile dog that copes very well with mountainous terrain, the Shiba Inu was originally
+                  bred for hunting.
+                </p>
+              </mat-card-content>
+              <mat-card-actions>
+                <button mat-button>READ</button>
+                <button mat-button>SHARE</button>
+              </mat-card-actions>
+            </mat-card>
+          </div>
+        </div>
+      </div>  
+    </div>
+    
+    <div class="footer">
+      <div class="footer-content">
+        <div class="row">
+          <div class="col-sm-4">
+            <h3 style="color: #ff9800;">About Deporter Logistics</h3>
+            <h4 style="color: #ffffff;">Lorem ipsum dolor sit amet, consectetur adipiscing elit. </h4>
+            <h3 style="color: #ff9800;">Reach Us At</h3>
+            <i class='fas fa-address-book' style='font-size:18px;color:#ffffff'></i> &nbsp; <span style="color: #ffffff;">D-267, Sector 47, Noida, UP</span><br>
+            <i class='fas fa-phone' style='font-size:18px;color:#ffffff'></i> &nbsp; <span style="color: #ffffff;">+91-9990495906</span><br>
+            <i class='fas fa-envelope-open' style='font-size:18px;color:#ffffff'></i> &nbsp; <span style="color: #ffffff;">ebaadansari@deporterlogistics.com</span>
+          </div>
+          <div class="col-sm-4">
+            <h3 style="color: #ff9800;">Important Links</h3>
+            <a>Home</a> <br>
+            <a>About Us</a> <br>
+            <a>Contact</a> <br>
+            <a>Blog</a> <br>
+            <a>Services</a> <br>
+            <a>Login</a> <br>
+          </div>
+          <div class="col-sm-4">
+            <h3 style="color: #ff9800;">Legal</h3>
+            <a>Privacy Policies</a> <br>
+            <a>Terms and Conditions</a> <br>
+            <a>Legal Documents</a> <br>
+            <a>Licenses</a>
+          </div>
+        </div>    
+    </div>
+  <div>
+</div>
